@@ -1,0 +1,288 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="es" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Confirmación de Asistencia | Valen &amp; JP</title>
+<!-- Google Fonts: Playfair Display, Plus Jakarta Sans, Bricolage Grotesque -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;600&amp;family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&amp;family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS v3 with plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "surface-bright": "#fcf9f3",
+            "on-primary-fixed": "#370e00",
+            "on-secondary-container": "#5a694d",
+            "on-primary-container": "#fffbff",
+            "surface-container": "#f0eee8",
+            "on-primary-fixed-variant": "#79300e",
+            "surface-dim": "#dcdad4",
+            "secondary-fixed-dim": "#bbccaa",
+            "on-secondary-fixed-variant": "#3d4b31",
+            "on-primary": "#ffffff",
+            "tertiary-fixed": "#ffdcbd",
+            "surface-container-highest": "#e5e2dc",
+            "on-tertiary": "#ffffff",
+            "on-surface": "#1c1c18",
+            "inverse-surface": "#31312d",
+            "primary-container": "#b35c37",
+            "surface-variant": "#e5e2dc",
+            "outline-variant": "#dbc1b8",
+            "on-tertiary-fixed": "#291805",
+            "secondary-container": "#d7e8c5",
+            "primary": "#944521",
+            "on-surface-variant": "#55433c",
+            "on-error": "#ffffff",
+            "tertiary-container": "#8a7055",
+            "inverse-on-surface": "#f3f0ea",
+            "on-error-container": "#93000a",
+            "secondary-fixed": "#d7e8c5",
+            "surface-container-lowest": "#ffffff",
+            "on-background": "#1c1c18",
+            "on-tertiary-container": "#fffbff",
+            "inverse-primary": "#ffb598",
+            "tertiary": "#70573f",
+            "primary-fixed": "#ffdbce",
+            "on-secondary-fixed": "#121f09",
+            "surface-container-low": "#f6f3ed",
+            "on-tertiary-fixed-variant": "#59422b",
+            "surface": "#fcf9f3",
+            "outline": "#88726b",
+            "error": "#ba1a1a",
+            "surface-container-high": "#ebe8e2",
+            "tertiary-fixed-dim": "#e1c1a2",
+            "surface-tint": "#974723",
+            "background": "#fcf9f3",
+            "primary-fixed-dim": "#ffb598",
+            "secondary": "#546347",
+            "on-secondary": "#ffffff",
+            "error-container": "#ffdad6"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "unit": "8px",
+            "margin-desktop": "64px",
+            "margin-mobile": "20px",
+            "gutter": "24px",
+            "container-max": "1200px"
+          },
+          "fontFamily": {
+            "serif-display": ["Cormorant Garamond", "Playfair Display", "serif"],
+            "display-lg-mobile": ["Playfair Display"],
+            "headline-md": ["Playfair Display"],
+            "body-md": ["Plus Jakarta Sans"],
+            "body-lg": ["Plus Jakarta Sans"],
+            "display-lg": ["Playfair Display"],
+            "label-caps": ["Plus Jakarta Sans"],
+            "accent-script": ["Bricolage Grotesque"]
+          },
+          "fontSize": {
+            "display-lg-mobile": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+            "headline-md": ["32px", { "lineHeight": "40px", "fontWeight": "600" }],
+            "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+            "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+            "display-lg": ["64px", { "lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "label-caps": ["12px", { "lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "600" }],
+            "accent-script": ["24px", { "lineHeight": "32px", "fontWeight": "400" }]
+          }
+        },
+      },
+    }
+  </script>
+</head>
+<body class="bg-background text-on-surface font-body-md text-body-md antialiased min-h-screen flex flex-col selection:bg-primary-fixed selection:text-primary" style="background-color: rgb(247, 244, 238);">
+<!-- Top Navigation Bar following Shared Components and Brand System -->
+<header class="fixed top-0 w-full z-50 bg-surface/80 dark:bg-surface-dim/80 backdrop-blur-md transition-all duration-300" style="background-color: rgba(247, 244, 238, 0.88); border-bottom: 1px solid rgba(220, 214, 203, 0.6);">
+<div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto">
+<!-- Brand Logo / Names -->
+<a class="flex items-center" href="./index.html">
+      <span class="font-serif-display text-2xl md:text-3xl tracking-wide text-[#3D4A39] italic font-medium">Valen <span class="font-light text-[#A65B32] not-italic">&amp;</span> JP</span>
+      <span class="text-[#797268] text-[11px] hidden sm:inline-block tracking-[0.2em] uppercase ml-2 opacity-80">• 05.12.26</span>
+    </a>
+<!-- Navigation Links (Active RSVP highlighted strictly per design system guidelines) -->
+<nav class="hidden md:flex items-center space-x-8 font-body-md text-body-md">
+
+
+<a class="text-primary dark:text-primary-fixed-dim font-bold border-b-2 border-primary dark:border-primary-fixed-dim pb-1" href="./rsvp.html" style="color: rgb(184, 93, 56); border-color: rgb(184, 93, 56); letter-spacing: 0.08em;">
+          RSVP
+        </a>
+</nav>
+<!-- Trailing Action: Volver al Inicio / Lista de Regalos -->
+<div class="flex items-center gap-4">
+<a class="inline-flex items-center gap-1.5 font-label-caps text-label-caps uppercase tracking-wider text-tertiary hover:text-primary transition-colors py-2 px-3 rounded-lg hover:bg-surface-container" href="./index.html" style="color: rgb(92, 86, 79); border: 1px solid rgba(214, 206, 194, 0.7); background-color: rgba(255, 255, 255, 0.4); border-radius: 9999px; padding: 6px 14px;">
+<span class="material-symbols-outlined text-lg" data-icon="arrow_back">arrow_back</span>
+<span class="hidden sm:inline">Inicio</span>
+</a>
+
+</div>
+</div>
+</header>
+<!-- Main Content Layout with Botanical Tactile Warmth -->
+<main class="flex-grow pt-28 md:pt-36 pb-24 px-margin-mobile md:px-margin-desktop relative overflow-hidden flex items-center justify-center">
+<!-- Delicate Boho Atmosphere Accents (Soft radial tones) -->
+<div class="absolute -top-16 -left-20 w-96 h-96 bg-secondary-container/40 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute top-1/2 -right-24 w-[32rem] h-[32rem] bg-primary-fixed/30 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="w-full max-w-2xl mx-auto relative z-10">
+<!-- Editorial Frame & Header -->
+<div class="text-center mb-10 md:mb-12">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary-container/50 text-on-secondary-container font-label-caps text-label-caps uppercase mb-4" style="background-color: rgb(229, 237, 224); color: rgb(67, 84, 57); letter-spacing: 0.14em; font-size: 11px; padding: 5px 14px; border: 1px solid rgb(210, 222, 208);">
+<span class="material-symbols-outlined text-sm" data-icon="local_florist">local_florist</span>
+<span class="">Celebración de Boda</span>
+</div>
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-surface text-primary tracking-tight" style="color: rgb(140, 66, 32); font-family: &quot;Playfair Display&quot;, Georgia, serif; font-weight: 600; letter-spacing: -0.015em;">
+          ¿Nos acompañas?
+        </h1>
+<p class="mt-4 font-body-lg text-body-lg text-on-surface-variant max-w-lg mx-auto leading-relaxed" style="color: rgb(93, 86, 78); font-size: 16px; line-height: 1.65;">
+          Por favor confirmen su asistencia antes del <strong class="font-semibold text-primary">30 de Octubre de 2026</strong> para ayudarnos a organizar cada detalle con amor.
+        </p>
+</div>
+<!-- Main RSVP Glassmorphic Card with Sun-Drenched Glow -->
+<div class="bg-surface-container-lowest/90 backdrop-blur-sm rounded-xl p-6 sm:p-10 md:p-12 border border-outline-variant/40 shadow-[0_12px_40px_rgba(198,107,68,0.07)] relative" style="background-color: rgb(255, 255, 255); border: 1px solid rgb(231, 225, 214); box-shadow: rgba(78, 64, 48, 0.08) 0px 16px 40px -10px; border-radius: 1.25rem;">
+<!-- Subtle Botanical Corner Mark -->
+<div class="absolute top-4 right-4 text-outline-variant/30 pointer-events-none">
+<span class="material-symbols-outlined text-4xl" data-icon="spa">spa</span>
+</div>
+<form class="space-y-8" id="wedding-rsvp-form">
+<!-- Identity Fields: Nombre y Email -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Nombre y Apellido -->
+<div class="space-y-2">
+<label class="block font-label-caps text-label-caps uppercase tracking-wider text-on-surface-variant font-medium" for="full-name">
+                Nombre y Apellido <span class="text-primary">*</span>
+</label>
+<div class="relative">
+<input class="w-full bg-surface-container-low border-0 border-b-2 border-outline-variant focus:border-primary focus:ring-0 px-3.5 py-3 text-on-surface font-body-md rounded-t-lg transition-colors placeholder:text-outline/60" id="full-name" name="fullName" placeholder="Ej. María Pérez" required="" type="text" style="background-color: rgb(250, 248, 245); border: 1px solid rgb(223, 216, 204); border-radius: 0.65rem; padding: 12px 14px; color: rgb(44, 39, 36);">
+</div>
+</div>
+<!-- Email -->
+<div class="space-y-2">
+<label class="block font-label-caps text-label-caps uppercase tracking-wider text-on-surface-variant font-medium" for="plus-one">Nombre y apellido +1 (Si aplica)</label>
+<div class="relative">
+<input class="w-full bg-surface-container-low border-0 border-b-2 border-outline-variant focus:border-primary focus:ring-0 px-3.5 py-3 text-on-surface font-body-md rounded-t-lg transition-colors placeholder:text-outline/60" id="plus-one" name="plusOne" placeholder="Ej: Carlos Perez" type="text" style="background-color: rgb(250, 248, 245); border: 1px solid rgb(223, 216, 204); border-radius: 0.65rem; padding: 12px 14px; color: rgb(44, 39, 36);">
+</div>
+</div>
+</div>
+<!-- Asistencia Decisión Radio Cards -->
+<div class="space-y-3 pt-2">
+<span class="block font-label-caps text-label-caps uppercase tracking-wider text-on-surface-variant font-medium">
+              ¿Asistirás a nuestro gran día? <span class="text-primary">*</span>
+</span>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4" role="radiogroup">
+<!-- Opción: Asiste -->
+<label class="relative flex items-center gap-3 p-4 rounded-xl border-2 border-outline-variant/60 bg-surface-container-low cursor-pointer hover:border-primary/60 transition-all has-[:checked]:border-primary has-[:checked]:bg-secondary-container/20 group">
+<input checked="" class="w-4 h-4 text-primary focus:ring-primary border-outline-variant" name="attendance" type="radio" value="yes">
+<div class="flex flex-col">
+<span class="font-body-md font-semibold text-on-surface group-hover:text-primary transition-colors">¡Sí, con muchas ganas!</span>
+<span class="text-xs text-on-surface-variant">Estaré para celebrar con ustedes</span>
+</div>
+</label>
+<!-- Opción: No asiste -->
+<label class="relative flex items-center gap-3 p-4 rounded-xl border-2 border-outline-variant/60 bg-surface-container-low cursor-pointer hover:border-primary/60 transition-all has-[:checked]:border-primary has-[:checked]:bg-secondary-container/20 group">
+<input class="w-4 h-4 text-primary focus:ring-primary border-outline-variant" name="attendance" type="radio" value="no">
+<div class="flex flex-col">
+<span class="font-body-md font-semibold text-on-surface group-hover:text-primary transition-colors">Lamentablemente no podré</span>
+<span class="text-xs text-on-surface-variant">Brindaré desde la distancia</span>
+</div>
+</label>
+</div>
+</div>
+<!-- Preferencias y Restricciones Alimentarias -->
+<div class="space-y-3 pt-2">
+<span class="block font-label-caps text-label-caps uppercase tracking-wider text-on-surface-variant font-medium">
+              Restricciones Alimentarias
+            </span>
+
+<div class="flex flex-wrap gap-2.5">
+<!-- Tag: Ninguna -->
+<label class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border border-secondary/30 bg-surface-container text-secondary text-sm font-medium cursor-pointer hover:bg-secondary-container/40 transition-colors has-[:checked]:bg-secondary has-[:checked]:text-on-secondary has-[:checked]:border-secondary">
+<input checked="" class="hidden" name="dietary" type="radio" value="Ninguna">
+<span class="material-symbols-outlined text-base" data-icon="check">check</span>
+<span class="">Ninguna</span>
+</label>
+<!-- Tag: Vegetariano -->
+<label class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border border-secondary/30 bg-surface-container text-secondary text-sm font-medium cursor-pointer hover:bg-secondary-container/40 transition-colors has-[:checked]:bg-secondary has-[:checked]:text-on-secondary has-[:checked]:border-secondary">
+<input class="hidden" name="dietary" type="radio" value="Vegetariano">
+<span class="material-symbols-outlined text-base" data-icon="psychiatry">psychiatry</span>
+<span class="">Vegetariano</span>
+</label>
+<!-- Tag: Celíaco -->
+<label class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border border-secondary/30 bg-surface-container text-secondary text-sm font-medium cursor-pointer hover:bg-secondary-container/40 transition-colors has-[:checked]:bg-secondary has-[:checked]:text-on-secondary has-[:checked]:border-secondary">
+<input class="hidden" name="dietary" type="radio" value="Celíaco / Sin TACC">
+<span class="material-symbols-outlined text-base" data-icon="grain">grain</span>
+<span class="">Celíaco / Sin TACC</span>
+</label>
+<!-- Tag: Vegano -->
+<label class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border border-secondary/30 bg-surface-container text-secondary text-sm font-medium cursor-pointer hover:bg-secondary-container/40 transition-colors has-[:checked]:bg-secondary has-[:checked]:text-on-secondary has-[:checked]:border-secondary">
+<input class="hidden" name="dietary" type="radio" value="Vegano">
+<span class="material-symbols-outlined text-base" data-icon="eco">eco</span>
+<span class="">Vegano</span>
+</label>
+</div>
+</div>
+<!-- Mensaje / Dedicatoria / Canción -->
+<div class="space-y-3 pt-2 bg-secondary-container/20 p-4 rounded-xl border border-secondary/30" style="background-color: rgb(245, 244, 239); border: 1px solid rgb(225, 219, 207); border-radius: 0.85rem;"><div class="flex items-start gap-3"><span class="material-symbols-outlined text-secondary text-2xl shrink-0 mt-0.5" data-icon="featured_seasonal_and_gifts">featured_seasonal_and_gifts</span><div><h4 class="font-body-md font-semibold text-on-surface text-sm sm:text-base">¡Dinámicas por WhatsApp!&nbsp;</h4><p class="text-xs sm:text-sm text-on-surface-variant mt-1 leading-relaxed">Durante la previa y el evento vamos a hacer juegos interactivos. Si querés participar, dejanos tu número de WhatsApp.</p></div></div><div class="space-y-2 pt-1"><label class="block font-label-caps text-label-caps uppercase tracking-wider text-on-surface-variant font-medium" for="whatsapp-phone">WhatsApp (Opcional)</label><div class="relative"><input autocomplete="tel" class="w-full bg-surface-container-low border-0 border-b-2 border-outline-variant focus:border-primary focus:ring-0 px-3.5 py-3 text-on-surface font-body-md rounded-t-lg transition-colors placeholder:text-outline/60" id="whatsapp-phone" inputmode="tel" name="whatsappPhone" placeholder="Ej: +54 9 11 1234 5678" title="Usá un número con código de área, por ejemplo +54 9 11 1234 5678" type="tel" style="background-color: rgb(255, 255, 255); border: 1px solid rgb(223, 216, 204); border-radius: 0.65rem; padding: 12px 14px; color: rgb(44, 39, 36);"></div></div></div>
+<!-- Botón de Envío Principal en Terracota -->
+<div class="pt-4">
+<button class="w-full bg-primary hover:bg-primary-container text-on-primary font-body-md font-semibold py-4 px-8 rounded-lg shadow-sm hover:shadow-md transition-all duration-200 active:scale-[0.99] flex items-center justify-center gap-2 tracking-wide" id="submit-btn" type="submit" style="background-color: rgb(148, 69, 33); border-radius: 0.75rem; letter-spacing: 0.04em; font-weight: 600; box-shadow: rgba(148, 69, 33, 0.28) 0px 4px 14px;">
+<span class="">Confirmar Asistencia</span>
+<span class="material-symbols-outlined text-lg" data-icon="favorite">favorite</span>
+</button>
+
+</div>
+</form>
+</div>
+<!-- Detail Badges beneath Card -->
+<div class="mt-8 flex flex-wrap items-center justify-center gap-6 text-tertiary text-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-base" data-icon="calendar_month">calendar_month</span>
+<span class="">Sábado, 5 de Diciembre 2026</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-base" data-icon="location_on">location_on</span>
+<span class="">Espacio PK, Capilla del señor</span>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer con estilo Ethereal Earth y tokens compartidos -->
+<footer class="w-full py-16 px-margin-desktop bg-surface-container dark:bg-surface-container-highest border-0" style="background-color: rgb(237, 231, 220); border-top: 1px solid rgb(225, 218, 208);">
+<div class="flex flex-col items-center justify-center space-y-6 text-center max-w-container-max mx-auto">
+<!-- Brand Seal -->
+<div class="font-accent-script text-accent-script text-primary dark:text-primary-fixed-dim"><span class="font-headline-md text-2xl text-[#2d2926] font-normal">Valen <span class="italic font-serif text-[#b85d38]">&amp;</span> JP</span></div>
+<p class="font-body-md text-body-md text-tertiary dark:text-tertiary-fixed-dim max-w-md font-medium">
+        Valen &amp; JP - 5 de Diciembre de 2026 - Espacio PK
+      </p>
+<!-- Navigation & Auxiliary Links -->
+<div class="flex flex-wrap justify-center gap-6 text-sm text-on-surface-variant dark:text-outline-variant">
+<a class="hover:text-primary dark:hover:text-primary-fixed-dim transition-colors" href="./index.html">Guardar Fecha</a>
+<span class="opacity-40">•</span>
+<a class="hover:text-primary dark:hover:text-primary-fixed-dim transition-colors" href="https://www.google.com/maps/search/?api=1&amp;query=Espacio+PK+Capilla+del+Se%C3%B1or" rel="noopener noreferrer" target="_blank">Ubicación y Mapa</a>
+<span class="opacity-40">•</span>
+<a class="hover:text-primary dark:hover:text-primary-fixed-dim transition-colors" href="./rsvp.html">Contacto Directo</a>
+</div>
+<p class="text-xs text-outline/70 pt-2">
+        © 2026 Valen &amp; JP. Esperamos celebrar juntos este nuevo comienzo.
+      </p>
+</div>
+</footer>
+<iframe class="hidden" id="hidden-google-form" name="hidden-google-form" title="Google Form"></iframe>
+<script src="./js/rsvp.js"></script>
+
+
+
+
+
+
+</body></html>
