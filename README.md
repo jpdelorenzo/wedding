@@ -49,6 +49,8 @@ Las opciones de **restricciones alimentarias** en el Form tienen que ser exactam
 
 Si las cambiás, actualizá también los `value` del radio en `rsvp.html`.
 
+También están conectados **Combi** (Si / No) y **Comentarios**. Las opciones de Combi tienen que ser exactamente `Si` y `No`.
+
 ## Notas
 
 - Las fotos del diseño de Stitch están en `lh3.googleusercontent.com` y pueden vencer. Si se rompen, bajalas a `assets/` y actualizá las URLs.

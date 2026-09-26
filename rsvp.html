@@ -235,8 +235,36 @@
 </label>
 </div>
 </div>
+<!-- Traslado combi / micro -->
+<div class="space-y-3 pt-2">
+<span class="block font-label-caps text-label-caps uppercase tracking-wider text-on-surface-variant font-medium">
+              ¿Te tenemos en cuenta para bondi o combi? <span class="text-primary">*</span>
+</span>
+<p class="text-sm text-on-surface-variant leading-relaxed" style="color: rgb(93, 86, 78);">Si querés ir en combi o micro, avisanos así los ponemos en contacto.</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4" role="radiogroup">
+<label class="relative flex items-center gap-3 p-4 rounded-xl border-2 border-outline-variant/60 bg-surface-container-low cursor-pointer hover:border-primary/60 transition-all has-[:checked]:border-primary has-[:checked]:bg-secondary-container/20 group">
+<input class="w-4 h-4 text-primary focus:ring-primary border-outline-variant" name="transport" required="" type="radio" value="yes">
+<div class="flex flex-col">
+<span class="font-body-md font-semibold text-on-surface group-hover:text-primary transition-colors">Sí, cuenten conmigo</span>
+<span class="text-xs text-on-surface-variant">Los ponemos en contacto</span>
+</div>
+</label>
+<label class="relative flex items-center gap-3 p-4 rounded-xl border-2 border-outline-variant/60 bg-surface-container-low cursor-pointer hover:border-primary/60 transition-all has-[:checked]:border-primary has-[:checked]:bg-secondary-container/20 group">
+<input class="w-4 h-4 text-primary focus:ring-primary border-outline-variant" name="transport" type="radio" value="no">
+<div class="flex flex-col">
+<span class="font-body-md font-semibold text-on-surface group-hover:text-primary transition-colors">No, voy por mi cuenta</span>
+<span class="text-xs text-on-surface-variant">No necesito traslado</span>
+</div>
+</label>
+</div>
+</div>
 <!-- Mensaje / Dedicatoria / Canción -->
 <div class="space-y-3 pt-2 bg-secondary-container/20 p-4 rounded-xl border border-secondary/30" style="background-color: rgb(245, 244, 239); border: 1px solid rgb(225, 219, 207); border-radius: 0.85rem;"><div class="flex items-start gap-3"><span class="material-symbols-outlined text-secondary text-2xl shrink-0 mt-0.5" data-icon="featured_seasonal_and_gifts">featured_seasonal_and_gifts</span><div><h4 class="font-body-md font-semibold text-on-surface text-sm sm:text-base">¡Dinámicas por WhatsApp!&nbsp;</h4><p class="text-xs sm:text-sm text-on-surface-variant mt-1 leading-relaxed">Durante la previa y el evento vamos a hacer juegos interactivos. Si querés participar, dejanos tu número de WhatsApp.</p></div></div><div class="space-y-2 pt-1"><label class="block font-label-caps text-label-caps uppercase tracking-wider text-on-surface-variant font-medium" for="whatsapp-phone">WhatsApp (Opcional)</label><div class="relative"><input autocomplete="tel" class="w-full bg-surface-container-low border-0 border-b-2 border-outline-variant focus:border-primary focus:ring-0 px-3.5 py-3 text-on-surface font-body-md rounded-t-lg transition-colors placeholder:text-outline/60" id="whatsapp-phone" inputmode="tel" name="whatsappPhone" placeholder="Ej: +54 9 11 1234 5678" title="Usá un número con código de área, por ejemplo +54 9 11 1234 5678" type="tel" style="background-color: rgb(255, 255, 255); border: 1px solid rgb(223, 216, 204); border-radius: 0.65rem; padding: 12px 14px; color: rgb(44, 39, 36);"></div></div></div>
+<!-- Aclaraciones / comentarios -->
+<div class="space-y-2 pt-2">
+<label class="block font-label-caps text-label-caps uppercase tracking-wider text-on-surface-variant font-medium" for="comments">Aclaraciones / comentarios</label>
+<textarea class="w-full bg-surface-container-low border-0 focus:border-primary focus:ring-0 px-3.5 py-3 text-on-surface font-body-md transition-colors placeholder:text-outline/60 resize-y min-h-[110px]" id="comments" name="comments" placeholder="Lo que quieras contarnos: alergias extra, horarios, o un mensaje" rows="4" style="background-color: rgb(250, 248, 245); border: 1px solid rgb(223, 216, 204); border-radius: 0.65rem; padding: 12px 14px; color: rgb(44, 39, 36);"></textarea>
+</div>
 <!-- Botón de Envío Principal en Terracota -->
 <div class="pt-4">
 <button class="w-full bg-primary hover:bg-primary-container text-on-primary font-body-md font-semibold py-4 px-8 rounded-lg shadow-sm hover:shadow-md transition-all duration-200 active:scale-[0.99] flex items-center justify-center gap-2 tracking-wide" id="submit-btn" type="submit" style="background-color: rgb(148, 69, 33); border-radius: 0.75rem; letter-spacing: 0.04em; font-weight: 600; box-shadow: rgba(148, 69, 33, 0.28) 0px 4px 14px;">

@@ -12,6 +12,8 @@ const ENTRIES = {
   plusOne: "entry.768279828",
   attendance: "entry.736576402",
   dietary: "entry.1134038068",
+  transport: "entry.1110434338",
+  comments: "entry.1360719051",
   whatsapp: "entry.1091157155",
 };
 
@@ -27,7 +29,7 @@ function isConfigured() {
 }
 
 function appendEntry(form, entryName, value) {
-  if (!entryName || value == null || value === "") {
+  if (!entryName || entryName.includes("XXXX") || value == null || value === "") {
     return;
   }
   const input = document.createElement("input");
@@ -48,6 +50,8 @@ function submitToGoogleForm(data) {
   appendEntry(proxy, ENTRIES.plusOne, data.plusOne);
   appendEntry(proxy, ENTRIES.attendance, ATTENDANCE_VALUES[data.attendance] || data.attendance);
   appendEntry(proxy, ENTRIES.dietary, data.dietary);
+  appendEntry(proxy, ENTRIES.transport, ATTENDANCE_VALUES[data.transport] || data.transport);
+  appendEntry(proxy, ENTRIES.comments, data.comments);
   appendEntry(proxy, ENTRIES.whatsapp, data.whatsapp);
 
   document.body.appendChild(proxy);
@@ -79,6 +83,8 @@ function collectFormData(form) {
     plusOne: form.plusOne.value.trim(),
     attendance: form.attendance.value,
     dietary: form.dietary.value,
+    transport: form.transport.value,
+    comments: form.comments.value.trim(),
     whatsapp: form.whatsappPhone.value.trim(),
   };
 }
